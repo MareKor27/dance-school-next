@@ -1,0 +1,72 @@
+@use "@/scss/abstracts/" as *;
+
+.gallery-conteiner {
+  position: relative;
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.masonry-galery {
+  column-count: 3;
+  @include screen-xs {
+    column-count: 2;
+  }
+  @include screen-xxs {
+    column-count: 1;
+  }
+}
+
+.masonry-galery .single-image {
+  width: 100%;
+}
+
+.gallery-image {
+  box-shadow: 0 0px 20px 5px rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border: 1px solid var(--primary-color-1);
+  line-height: 0;
+}
+
+.single-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 3s linear;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.single-image:hover {
+  transform: scale(1.1);
+  rotate: 3deg;
+}
+
+.gallery-image:nth-child(even) .single-image:hover {
+  transform: scale(1.1);
+  rotate: -3deg;
+}
+
+/*=====================
+Mozajka
+*/
+
+/* // .gallery-conteiner .image-container {
+//   columns: 300px;
+//   gap: 10px;
+// }
+
+// .gallery-conteiner .image-container .image {
+//   border: 5px solid var(--main-color-1);
+//   box-shadow: 0 0px 20px 5px rgb(0, 0, 0, 0.5);
+//   overflow: hidden;
+//   cursor: pointer;
+//   margin-bottom: 10px;
+// } */

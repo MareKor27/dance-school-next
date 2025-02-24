@@ -1,0 +1,50 @@
+@use "@/scss/abstracts/" as *;
+
+.parallax {
+  height: 500px;
+  overflow: hidden;
+  z-index: 1;
+  background: var(--primary-color-1);
+  border-bottom: 1px solid var(--primary-color-1);
+  @include screen-xs {
+    height: 300px;
+  }
+}
+
+.background {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  @include screen-sm {
+    scale: 1.5;
+  }
+  @include screen-xs {
+    scale: 2.5;
+  }
+}
+
+.text p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8),
+    5px 5px 70px rgba(255, 255, 255, 0.8);
+  @include screen-xs {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1),
+      5px 5px 20px rgba(255, 255, 255, 1);
+  }
+}
+
+.text {
+  left: 50%;
+  position: absolute;
+  font-family: var(--primary-font-9);
+  font-weight: 400;
+  font-size: 3rem;
+
+  transform: scale(1, 1.1) translate(-50%, 10%);
+  text-align: center;
+  @include screen-sm {
+    font-size: 2rem;
+  }
+  @include screen-xs {
+    font-size: 1.5rem;
+  }
+}

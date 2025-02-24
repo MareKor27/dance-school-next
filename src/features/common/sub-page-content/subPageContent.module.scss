@@ -1,0 +1,195 @@
+@use "@/scss/abstracts/" as *;
+/* GENERAL */
+
+.sub-page-content {
+  padding-top: calc(var(--module-padding) * 1);
+  padding-bottom: calc(var(--module-padding) * 2);
+  @include screen-md(max) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.sub-page-content h4 {
+  padding-top: 1rem;
+}
+
+.ul-padding-left {
+  padding-left: 1rem;
+}
+
+.sub-page-content .custom-li-icon {
+  background: url("/images/guest/maxdance-logotype.webp") 2px 5px no-repeat;
+  background-size: 20px;
+  display: table;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.sub-page-content li {
+  padding: 0.1rem 0;
+  letter-spacing: 1px;
+}
+
+.important-information {
+  color: var(--primary-color-1);
+  font-weight: 800;
+  font-family: var(--primary-font-2);
+  padding: 30px 0 15px 0;
+}
+
+.links {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  @include screen-xxs {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.links button {
+  scale: 1.2;
+}
+
+/* CONTACT  */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @include screen-xs {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* STATUT */
+
+li.lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+/* GALLERY */
+
+.masonry-galery {
+  column-count: 3;
+}
+
+.masonry-galery > img {
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid var(--primary-color-1);
+}
+
+.masonry-galery > img:hover {
+  /* transform: scale(1.1); */
+}
+
+.h2__pading-top {
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* LESSON PLAN */
+
+.calledar {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  gap: 10px;
+  @include screen-xs {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lesson {
+  background-color: var(--primary-color-2-2);
+  padding: 10px;
+  border: 2px solid var(--primary-cerise-700);
+  margin: 10px 0;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.title-lesson {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: var(--primary-color-1);
+}
+
+.hours {
+  font-weight: 600;
+  color: var(--primary-color-4);
+}
+
+.dificulty-level {
+  color: var(--cerise-200);
+}
+
+.instructor {
+  font-weight: 600;
+  color: var(--primary-color-1);
+}
+
+.group-status {
+  color: var(--cerise-200);
+  font-weight: 400;
+}
+
+.registration {
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  rotate: -10deg;
+  font-family: var(--primary-font-5);
+  color: var(--primary-color-5);
+  font-size: 2em;
+  @include screen-xs {
+    right: 1px;
+    bottom: 75px;
+    rotate: 0deg;
+  }
+}
+
+.sign-up-button {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  padding: 10px;
+  background-color: var(--primary-color-5);
+  color: var(--primary-color-2-2);
+  rotate: -10deg;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  @include screen-xs {
+    right: -5px;
+    bottom: 10px;
+  }
+}
+
+.sign-up-button:hover {
+  background-color: var(--primary-color-1);
+  color: var(--primary-color-3);
+  scale: 1.2;
+}
+
+/* TABS */
+
+.day-heading {
+  margin-top: var(--module-padding);
+}
+
+/* .tab {
+  display: none;
+}
+
+.tab.active {
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+} */

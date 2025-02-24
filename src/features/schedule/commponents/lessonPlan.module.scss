@@ -1,0 +1,156 @@
+@use "@/scss/abstracts/" as *;
+
+/* LESSON PLAN */
+
+.calledar {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  gap: 10px;
+  @include screen-xs {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lesson {
+  background-color: var(--primary-color-2-2);
+  padding: 10px;
+  border: 2px solid var(--primary-cerise-700);
+  margin: 10px 0;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.title-lesson {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: var(--primary-color-1);
+}
+
+.hours {
+  font-weight: 600;
+  color: var(--primary-color-4);
+}
+
+.dificulty-level {
+  color: var(--cerise-200);
+}
+
+.instructor {
+  font-weight: 600;
+  color: var(--primary-color-1);
+}
+
+.group-status {
+  color: var(--cerise-200);
+  font-weight: 400;
+}
+
+.registration {
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  rotate: -10deg;
+  font-family: var(--primary-font-5);
+  color: var(--primary-color-5);
+  font-size: 2em;
+  @include screen-xs {
+    right: 1px;
+    bottom: 75px;
+    rotate: 0deg;
+  }
+}
+
+.sign-up-button {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  padding: 10px;
+  background-color: var(--primary-color-5);
+  color: var(--primary-color-2-2);
+  rotate: -10deg;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  @include screen-xs {
+    right: -5px;
+    bottom: 10px;
+  }
+}
+
+.sign-up-button:hover {
+  background-color: var(--primary-color-1);
+  color: var(--primary-color-3);
+  scale: 1.2;
+}
+
+/* TABS */
+
+.tab-modul {
+}
+
+.tab-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid var(--primary-color-3);
+  position: relative;
+  margin-bottom: 20px;
+  @include screen-xs {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    border-bottom: none;
+  }
+}
+
+.day-heading {
+  margin-top: var(--module-padding);
+}
+
+.tab-title {
+  position: relative;
+  bottom: -1px;
+  background: var(--primary-cerise-950);
+  padding: 20px;
+  z-index: 10;
+  border: 1px solid var(--primary-color-3);
+  border-radius: 10px 10px 0 0;
+  transition: 0.5s ease-in-out;
+  color: var(--primary-color-);
+  cursor: pointer;
+  box-shadow: inset 0px 5px 16px 2px rgba(0, 0, 0, 0.9);
+  @include screen-xs {
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+}
+.tab-title:hover {
+  box-shadow: inset 0px 5px 16px 2px rgba(255, 255, 255, 0.2);
+}
+
+.tab-title.active {
+  background: var(--primary-color-2);
+  border-bottom: 1px solid var(--primary-color-2);
+  box-shadow: inset 0px 20px 20px rgba(255, 255, 255, 0.2),
+    inset 0px -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tabs-content {
+  position: relative;
+  padding: 2em 0;
+}
+
+/* .tab {
+  display: none;
+}
+
+.tab.active {
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+} */

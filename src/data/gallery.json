@@ -1,0 +1,112 @@
+[
+  {
+    "galleries": [
+      {
+        "name": "galleryOne",
+        "images": [
+          {
+            "url": "images/gallery/g-1.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-2.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-3.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-4.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-5.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-6.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-7.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-8.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-9.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-10.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-11.jpg",
+            "alt": ""
+          },
+          {
+            "url": "images/gallery/g-12.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "name": "galleryTwo",
+        "images": [
+          {
+            "url": "images/gallery/g-1.jpg",
+            "alt": "Chłopiec na stoku nocą"
+          },
+          {
+            "url": "images/gallery/g-2.jpg",
+            "alt": "Chłopiec na stoku nocą 2"
+          },
+          {
+            "url": "images/gallery/g-3.jpg",
+            "alt": "Grupa na rozgrzewce"
+          },
+          {
+            "url": "images/gallery/g-4.jpg",
+            "alt": "Grupa na wyciągu"
+          },
+          {
+            "url": "images/gallery/g-5.jpg",
+            "alt": "Dzieci z instruktorem"
+          },
+          {
+            "url": "images/gallery/g-6.jpg",
+            "alt": "Stock nocą"
+          },
+          {
+            "url": "images/gallery/g-7.jpg",
+            "alt": "Dzieci na nocnym stoku"
+          },
+          {
+            "url": "images/gallery/g-8.jpg",
+            "alt": "Dzieci na nocnym stoku 2"
+          },
+          {
+            "url": "images/gallery/g-9.jpg",
+            "alt": "Dzieci na nocnym stoku 2"
+          },
+          {
+            "url": "images/gallery/g-10.jpg",
+            "alt": "Dzieci na nocnym stoku 2"
+          },
+          {
+            "url": "images/gallery/g-11.jpg",
+            "alt": "Dzieci na nocnym stoku 2"
+          },
+          {
+            "url": "images/gallery/g-12.jpg",
+            "alt": "Dziecko na stoku"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,406 @@
+{
+  "monday": {
+    "label": "Poniedziałek",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Jazz",
+            "hours": "17:00 - 18:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 16.09.2024",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          },
+          {
+            "title": "Burleska",
+            "hours": "18:30 - 19:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 16.09.2024"
+          },
+          {
+            "title": "Jezz",
+            "hours": "19:30 - 21:30",
+            "difficulty": "zaawansowany P4",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 16.09.2024"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "17:30 - 18:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 02.09.2024"
+          },
+          {
+            "title": "Latino solo",
+            "hours": "18:30 - 19:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 02.09.2024"
+          },
+          {
+            "title": "Sexy Dance",
+            "hours": "19:30 - 20:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 02.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla par",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 02.09.2024"
+          }
+        ]
+      }
+    ]
+  },
+  "tuesday": {
+    "label": "Wtorek",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Pilates",
+            "hours": "16:30 - 17:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 17.09.2024",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          },
+          {
+            "title": "Pilates",
+            "hours": "17:30 - 18:30",
+            "difficulty": "średnio zaawansowany P2 - P3",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 03.09.2024"
+          },
+          {
+            "title": "Stretching",
+            "hours": "18:30 - 19:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 16.09.2024"
+          },
+          {
+            "title": "Salsation",
+            "hours": "19:30 - 20:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Marta Jemielity",
+            "groupStatus": "START 03.09.2024"
+          },
+          {
+            "title": "Shuffle Dance",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 17.09.2024"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "16:30 - 17:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 15.10.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "17:30 - 18:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 03.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla par",
+            "hours": "18:30 - 19:30",
+            "difficulty": "średnio zaawansowany P2 - P3",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 03.09.2024"
+          },
+          {
+            "title": "Burleska",
+            "hours": "19:30 - 20:30",
+            "difficulty": "średnio zaawansowany P2 - P3",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 17.09.2024"
+          },
+          {
+            "title": "Stretching",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 03.09.2024"
+          }
+        ]
+      }
+    ]
+  },
+  "wednesday": {
+    "label": "Środa",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Jazz",
+            "hours": "17:00 - 18:30",
+            "difficulty": "średnio zaawansowany P3",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 18.09.2024"
+          },
+          {
+            "title": "High Heels",
+            "hours": "18:30 - 19:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 04.09.2024"
+          },
+          {
+            "title": "Shuffle Dance",
+            "hours": "19:30 - 20:30",
+            "difficulty": "średnio zaawansowany P4",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 04.09.2024"
+          },
+          {
+            "title": "Salsation",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Alona Garbar",
+            "groupStatus": "START 04.09.2024",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Jazz",
+            "hours": "17:00 - 18:30",
+            "difficulty": "początkujący kontynuacja P1",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 04.09.2024"
+          },
+          {
+            "title": "Broadway Jazz",
+            "hours": "18:30 - 20:30",
+            "difficulty": "średnio zaawansowany P2 - P3",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 18.09.2024",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          },
+          {
+            "title": "Stretching",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 18.09.2024"
+          }
+        ]
+      }
+    ]
+  },
+  "thursday": {
+    "label": "Czwartek",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Taniec brzucha",
+            "hours": "17:30 - 18:30",
+            "difficulty": "średnio zaawansowany P3",
+            "instructor": "Magdalena Balcerzak",
+            "groupStatus": "START 05.09.2024"
+          },
+          {
+            "title": "Latin Fusion",
+            "hours": "18:30 - 19:30",
+            "difficulty": "początkujący P0",
+            "instructor": "Magdalena Balcerzak",
+            "groupStatus": "START 05.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "19:30 - 20:30",
+            "difficulty": "początkujący P1",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 16.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla par",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 23.01.2025",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Kurs tańca użytkowego dla par",
+            "hours": "17:30 - 18:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 05.12.2024",
+            "registration": "Zapisy Trwają!",
+            "registrationButton": "zapisz się !"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "18:30 - 19:30",
+            "difficulty": "zaawansowany S1",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 05.09.2024"
+          },
+          {
+            "title": "Latino solo",
+            "hours": "19:40 - 20:40",
+            "difficulty": "zaawansowany P4",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 05.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla par",
+            "hours": "20:30 - 21:30",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Mariusz Kobyliński",
+            "groupStatus": "START 19.09.2024"
+          }
+        ]
+      }
+    ]
+  },
+  "friday": {
+    "label": "Piątek",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Jazz",
+            "hours": "17:00 - 18:30",
+            "difficulty": "średnio zaawansowany P2",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 06.09.2024"
+          },
+          {
+            "title": "Ladies Choreo",
+            "hours": "18:30 - 20:00",
+            "difficulty": "początkujący P0",
+            "instructor": "Adrianna Zańko",
+            "groupStatus": "START 06.09.2024"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Latino solo",
+            "hours": "17:00 - 18:00",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 06.09.2024"
+          },
+          {
+            "title": "Kurs tańca towarzyskiego i użytkowego dla singli",
+            "hours": "18:00 - 19:00",
+            "difficulty": "początkujący P0 - P1",
+            "instructor": "Julia Julia",
+            "groupStatus": "START 06.09.2024"
+          },
+          {
+            "title": "Salsation",
+            "hours": "19:00 - 20:00",
+            "difficulty": "początkujący P0",
+            "instructor": "Alona Garbar",
+            "groupStatus": "START 06.09.2024"
+          }
+        ]
+      }
+    ]
+  },
+  "saturday": {
+    "label": "Sobota",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Pilates & Stretching",
+            "hours": "10:00 - 12:00",
+            "difficulty": "początkujący P0",
+            "instructor": "Anna Drelichowska",
+            "groupStatus": "START 21.09.2024"
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Brak zajęć",
+            "hours": "Możliwość wynajęcia",
+            "difficulty": "",
+            "instructor": "",
+            "groupStatus": ""
+          }
+        ]
+      }
+    ]
+  },
+  "sunday": {
+    "label": "Niedziela",
+    "data": [
+      {
+        "room": "Sala numer 1",
+        "lessons": [
+          {
+            "title": "Brak Zajęć",
+            "hours": "Możliwość wynajęcia",
+            "difficulty": "",
+            "instructor": "",
+            "groupStatus": ""
+          }
+        ]
+      },
+      {
+        "room": "Sala numer 2",
+        "lessons": [
+          {
+            "title": "Brak Zajęć",
+            "hours": "Możliwość wynajęcia",
+            "difficulty": "",
+            "instructor": "",
+            "groupStatus": ""
+          }
+        ]
+      }
+    ]
+  }
+}

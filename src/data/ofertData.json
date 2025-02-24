@@ -1,0 +1,45 @@
+{
+  "zajeciaGrupowe": {
+    "label": "Zajęcia Grupowe",
+    "data": [
+      {
+        "title": "DISCOFOX DLA PAR",
+        "description": "Discofox to taniec użytkowy, w Polsce przyjęła się także nazwa „dwa na jeden” (2 na 1). Discofox możemy tańczyć prawie do każdej muzyki dyskotekowej, niezależnie od jej tempa. Kroki i przejścia taneczne tego tańca to kompilacja wielu styli tanecznych, zawiera elementy samby, salsy, cha-cha-cha, rock and rolla a nawet jazz, dzięki temu jest ciekawy i nieskomplikowany zarazem. Discofox to taniec użytkowy, którego największą zaletą jest uniwersalność, gdyż może być tańczony praktycznie do każdej muzyki i na każdej imprezie. Jest to idealny taniec na wesele zarówno dla gości jak i dla pary młodej jako pierwszy taniec weselny."
+      },
+      {
+        "title": "KURS TAŃCA TOWARZYSKIEGO DLA PAR",
+        "description": "Discofox to taniec użytkowy, w Polsce przyjęła się także nazwa „dwa na jeden” (2 na 1). Discofox możemy tańczyć prawie do każdej muzyki dyskotekowej, niezależnie od jej tempa. Kroki i przejścia taneczne tego tańca to kompilacja wielu styli tanecznych, zawiera elementy samby, salsy, cha-cha-cha, rock and rolla a nawet jazz, dzięki temu jest ciekawy i nieskomplikowany zarazem. Discofox to taniec użytkowy, którego największą zaletą jest uniwersalność, gdyż może być tańczony praktycznie do każdej muzyki i na każdej imprezie. Jest to idealny taniec na wesele zarówno dla gości jak i dla pary młodej jako pierwszy taniec weselny."
+      },
+      {
+        "title": "KURS TAŃCA TOWARZYSKIEGO I UŻYTKOWEGO DLA SINGLI",
+        "description": "Discofox to taniec użytkowy, w Polsce przyjęła się także nazwa „dwa na jeden” (2 na 1). Discofox możemy tańczyć prawie do każdej muzyki dyskotekowej, niezależnie od jej tempa. Kroki i przejścia taneczne tego tańca to kompilacja wielu styli tanecznych, zawiera elementy samby, salsy, cha-cha-cha, rock and rolla a nawet jazz, dzięki temu jest ciekawy i nieskomplikowany zarazem. Discofox to taniec użytkowy, którego największą zaletą jest uniwersalność, gdyż może być tańczony praktycznie do każdej muzyki i na każdej imprezie. Jest to idealny taniec na wesele zarówno dla gości jak i dla pary młodej jako pierwszy taniec weselny."
+      }
+    ]
+  },
+  "lekcjeIndywidualne": {
+    "label": "Lekcje Indywidualne",
+    "data": [
+      {
+        "title": "LEKCJE INDYWIDUALNE",
+        "description": "Proponujemy lekcje dla par i pojedynczych osób. Można samemu wybrać dowolne tańce i zdecydować o tempie nauczania. Bezpośredni kontakt z instruktorem pomaga dokładniej przyswoić taneczną wiedzę."
+      },
+      {
+        "title": "LEKCJE DOKSZTAŁCAJĄCE",
+        "description": "Proponujemy lekcje dla par i pojedynczych osób. Można samemu wybrać dowolne tańce i zdecydować o tempie nauczania. Bezpośredni kontakt z instruktorem pomaga dokładniej przyswoić taneczną wiedzę."
+      }
+    ]
+  },
+  "wieczoryPanienskie": {
+    "label": "Wieczory Panieńskie",
+    "data": [
+      {
+        "title": "WIECZORY PANIEŃSKIE",
+        "description": "Chcesz spędzić swój wieczór panieński zupełnie inaczej niż wszyscy? A może zafundować taki wieczór swojej przyjaciółce?"
+      },
+      {
+        "title": "LEKCJE INDYWIDUALNE",
+        "description": "Proponujemy lekcje dla par i pojedynczych osób. Można samemu wybrać dowolne tańce i zdecydować o tempie nauczania. Bezpośredni kontakt z instruktorem pomaga dokładniej przyswoić taneczną wiedzę."
+      }
+    ]
+  }
+}

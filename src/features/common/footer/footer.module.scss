@@ -1,0 +1,64 @@
+@use "@/scss/abstracts/" as *;
+
+.footer-section {
+  background-color: var(--primary-color-2-2);
+  text-align: center;
+  border-top: 1px solid var(--primary-color-1);
+  z-index: 50;
+}
+
+.footer-box {
+  background-color: var(--primary-color-2-2);
+  padding: 30px 10px 0 10px;
+  border: 1px solid var(--primary-color-1);
+  position: relative;
+  margin: 60px 0;
+  font-family: var(--primary-font-8);
+  @include screen-xs {
+    margin: 30px 0;
+  }
+}
+
+.footer-box > svg {
+  background-color: var(--primary-color-2-2);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-box .tel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-information {
+  color: var(--primary-color-4);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  @include screen-md {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  @include screen-sm {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  @include screen-xs {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.copywrite {
+  height: 50px;
+  color: var(--primary-color-4);
+  background-color: var(--primary-color-2-4);
+  align-content: center;
+  justify-content: center;
+}
